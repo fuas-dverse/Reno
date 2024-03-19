@@ -1,0 +1,130 @@
+<mxfile host="Electron" modified="2024-03-17T19:44:52.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="OV8QBIrS8ejekmylmRIJ" version="23.0.2" type="device">
+  <diagram name="Page-1" id="zLYxhLjkyYAgsVol6kOc">
+    <mxGraphModel dx="2537" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpXpCSWnKOYYGgrm0Xa_-2" target="rpXpCSWnKOYYGgrm0Xa_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Follow&lt;br&gt;[HTTP POST]&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpXpCSWnKOYYGgrm0Xa_-13">
+          <mxGeometry x="0.0598" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-2" value="@Reno" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="80" width="95" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-10" value="&lt;pre tabindex=&quot;0&quot; class=&quot;chroma&quot; style=&quot;max-height: min(20rem, 50vh); background-color: rgb(40, 44, 52); padding: 10px; color: rgb(97, 175, 239); line-height: normal; border-radius: 3px; overflow: auto; margin: 0px; font-size: 17.6px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot; style=&quot;background-color: initial; border-radius: 3px; font-family: monospace; overflow-wrap: break-word; padding: 0px; border: none;&quot;&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;@context&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;https://www.w3.org/ns/activitystreams&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;https://activitypub.academy/16606771-befe-483b-9e2c-0b8b85062373&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;Follow&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;actor&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;https://activitypub.academy/users/reno&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;object&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;https://techhub.social/users/karin&quot;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="630" width="820" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpXpCSWnKOYYGgrm0Xa_-11" target="rpXpCSWnKOYYGgrm0Xa_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-30" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Reads&lt;br&gt;[HTTP GET]&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpXpCSWnKOYYGgrm0Xa_-29">
+          <mxGeometry x="-0.0628" y="-3" relative="1" as="geometry">
+            <mxPoint x="-23" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rpXpCSWnKOYYGgrm0Xa_-11" target="rpXpCSWnKOYYGgrm0Xa_-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-34" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Accept&lt;br&gt;[HTTP POST]&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpXpCSWnKOYYGgrm0Xa_-33">
+          <mxGeometry x="-0.0247" y="-3" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-11" value="@Karin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="95" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rpXpCSWnKOYYGgrm0Xa_-12" target="rpXpCSWnKOYYGgrm0Xa_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Stores message&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpXpCSWnKOYYGgrm0Xa_-20">
+          <mxGeometry x="0.1255" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-12" value="Inbox&lt;br&gt;@Karin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-19" value="Database&lt;br&gt;@Karin" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="105" y="-60" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-24" value="Outbox&lt;br&gt;@Karin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rpXpCSWnKOYYGgrm0Xa_-24" target="rpXpCSWnKOYYGgrm0Xa_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Read message&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpXpCSWnKOYYGgrm0Xa_-26">
+          <mxGeometry x="-0.6764" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-31" value="Inbox&lt;br&gt;@Reno" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-32" value="Outbox&lt;br&gt;@Reno" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-35" value="Database&lt;br&gt;@Reno" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rpXpCSWnKOYYGgrm0Xa_-31" target="rpXpCSWnKOYYGgrm0Xa_-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-41" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Stores message&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpXpCSWnKOYYGgrm0Xa_-36">
+          <mxGeometry x="-0.1989" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-37" value="&lt;pre tabindex=&quot;0&quot; class=&quot;chroma&quot; style=&quot;max-height: min(20rem, 50vh); background-color: rgb(40, 44, 52); padding: 10px; color: rgb(97, 175, 239); line-height: normal; border-radius: 3px; overflow: auto; margin: 0px; font-size: 17.6px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot; style=&quot;background-color: initial; border-radius: 3px; font-family: monospace; overflow-wrap: break-word; padding: 0px; border: none;&quot;&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;@context&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;https://www.w3.org/ns/activitystreams&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;https://techhub.social/users/karin#accepts/follows/946055&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;Accept&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;actor&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;https://techhub.social/users/karin&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;object&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;    &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;https://activitypub.academy/16606771-befe-483b-9e2c-0b8b85062373&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;    &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;Follow&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;    &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;actor&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;https://activitypub.academy/users/reno&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;    &lt;span class=&quot;nt&quot; style=&quot;color: rgb(97, 175, 239);&quot;&gt;&quot;object&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot; style=&quot;color: rgb(152, 195, 121);&quot;&gt;&quot;https://techhub.social/users/karin&quot;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;line&quot; style=&quot;display: flex;&quot;&gt;&lt;span class=&quot;cl&quot;&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="850" width="560" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-38" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Follow:&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="590" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-39" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Accept:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="813" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rpXpCSWnKOYYGgrm0Xa_-32" target="rpXpCSWnKOYYGgrm0Xa_-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-42" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Read message&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpXpCSWnKOYYGgrm0Xa_-40">
+          <mxGeometry x="-0.6251" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rpXpCSWnKOYYGgrm0Xa_-32" target="rpXpCSWnKOYYGgrm0Xa_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-55" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-45" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Reads&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;[HTTP GET]&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rpXpCSWnKOYYGgrm0Xa_-44">
+          <mxGeometry x="0.0538" y="-1" relative="1" as="geometry">
+            <mxPoint x="12" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-47" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-90" width="530" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-48" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="220" width="510" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-49" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Karin&#39;s server&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-70" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpCSWnKOYYGgrm0Xa_-50" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Reno&#39;s server&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="460" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
