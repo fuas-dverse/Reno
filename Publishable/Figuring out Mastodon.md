@@ -106,6 +106,8 @@ Input:
 | Method   | GET                               |
 | Client   | Postman                           |
 | Headers  | Accept: application/activity+json |
+
+
 Output:
 ```json
 {
