@@ -1,2 +1,2 @@
 # Reno
-Individual project from Brett Mulder.
+Individual project from Reno Muijsenberg.
