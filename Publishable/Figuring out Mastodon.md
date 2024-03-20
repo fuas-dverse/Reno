@@ -1,5 +1,3 @@
-Created at 19-03-2024 @ 10:39 by Reno Muijsenberg
-
 Did you know that a single protocol, [ActivityPub](https://fuas-dverse.github.io/concepts/activitypub/), is the backbone of the entire Fediverse? This powerful tool allows data to flow freely between Mastodon servers, fostering a truly interconnected social web. Today, we'll explore ActivityPub and show you how to use it to retrieve your Mastodon data.
 
 In this article I will try to get a better understanding of the ActivityPub protocol by 'reverse engineering' and figuring out what data we can retrieve from the [Social Edu Mastodon servers](https://social.edu.nl/).
@@ -231,7 +229,7 @@ Output:
 
 As we can see this JSON returns the data belonging the my outbox, the data is being structured with an [OrderedCollection](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection), as should  be the case stated in the ActivityPub specs.
 
-> [!note] ActivityPub Specs
+> [!quote] ActivityPub Specs
 > The `outbox` _MUST_ be an [`OrderedCollection`](https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection).
 
 The strange thing about this is that it the `totalItems` is 0, because I did send and receive a friend requests. So, it properly is partially protected by some kind of authentication.
